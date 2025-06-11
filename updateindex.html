@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Sahoo | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #1f2937, #111827);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #3b82f6;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1f2937;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #3b82f6;
+      padding-left: 0.5rem;
+    }
+    .skills, .projects, .certs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1f2937;
+      color: white;
+    }
+    a.btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    a.btn:hover {
+      background-color: #2563eb;
+    }
+    a {
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abhishek Sahoo</h1>
+  <p>Aspiring Android Developer | CSE (IoT) | Tech Explorer</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a B.Tech Computer Science student with specialization in IoT from Siksha 'O' Anusandhan, Bhubaneswar. I love building efficient Android apps, exploring AI/ML, and solving real-world problems using technology.</p>
+  <p><strong>CGPA:</strong> 7.232 | <strong>Pass-out:</strong> 2026</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>Languages</h3>
+      <p>Java, Python, C/C++, HTML, SQL</p>
+    </div>
+    <div class="card">
+      <h3>IoT & Tools</h3>
+      <p>Arduino, ESP32-CAM, Raspberry Pi, Git, VS Code</p>
+    </div>
+    <div class="card">
+      <h3>Core Concepts</h3>
+      <p>DSA, Problem Solving, OOP, DBMS, CN, OS</p>
+    </div>
+    <div class="card">
+      <h3>ML & Libraries</h3>
+      <p>MediaPipe, OpenCV, TensorFlow, Scikit-learn</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>AI-Based Clothing Review Sentiment Analysis</h3>
+      <p>Used Naïve Bayes & NLP for review sentiment prediction.<br><strong>Tech:</strong> Python, Scikit-learn</p>
+    </div>
+    <div class="card">
+      <h3>Object Counter using ESP32-CAM</h3>
+      <p>Counts objects in real-time using OpenCV.<br><strong>Tech:</strong> Python, ESP32-CAM</p>
+    </div>
+    <div class="card">
+      <h3>Push-Up Counter with MediaPipe</h3>
+      <p>Pose Estimation system for fitness tracking.<br><strong>Tech:</strong> Raspberry Pi, MediaPipe</p>
+    </div>
+    <div class="card">
+      <h3>Arduino LCD Dino Game</h3>
+      <p>Endless runner game using Arduino.<br><strong>Tech:</strong> Embedded C, Arduino</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certs">
+    <div class="card">
+      <p>AI for Beginners – HP LIFE</p>
+    </div>
+    <div class="card">
+      <p>Effective Leadership – HP LIFE</p>
+    </div>
+    <div class="card">
+      <p>Google Ads Certification – Simplilearn</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:abhisheksahoo990@gmail.com">abhisheksahoo990@gmail.com</a></p>
+  <p>Phone: <a href="tel:+919692070810">+91 96920 70810</a></p>
+  <p>GitHub: <a href="https://github.com/Abhisheksahoo123" target="_blank">github.com/Abhisheksahoo123</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/abhishek-sahoo-a60862253" target="_blank">linkedin.com/in/abhishek-sahoo</a></p>
+  <a class="btn" href="Abhishek-Sahoo--Resume-2025.pdf" download>Download Resume</a>
+</section>
+
+<footer>
+  <p>© 2025 Abhishek Sahoo | Portfolio</p>
+</footer>
+
+</body>
+</html>
